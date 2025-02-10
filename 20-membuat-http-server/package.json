@@ -1,0 +1,23 @@
+{
+  "name": "notes-app-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.0",
+    "eslint-config-dicodingacademy": "^0.9.4",
+    "globals": "^15.14.0",
+    "nodemon": "^3.1.9"
+  },
+  "description": "1. Memasang eslint ``` npm init @eslint/config@latest ``` 2. Jawab pertanyaan yang muncul. - How would you like to use ESLint? -> _*To check syntax and find problems*_. - What type of modules does your project use? -> _*CommonJS (require/exports)*_. - Which framework does your framework use? -> _*None of these*_.  - Does your project use TypeScript? -> _*No*_. - Where does your code run? -> _*Node (pilih menggunakan spasi)*_. - Would you like to …… (seluruh pertanyaan selanjutnya) -> _*Y*_. 3. Tambahkan style guide Dicoding Academy ``` npm install --save-dev eslint-config-dicodingacademy ``` 4. Edit file `eslint.config.mjs`. ``` import daStyle from 'eslint-config-dicodingacademy';",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12"
+  }
+}
